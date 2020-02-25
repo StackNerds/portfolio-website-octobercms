@@ -1,0 +1,117 @@
+title = "home"
+url = "/"
+is_hidden = 0
+==
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  {% placeholder head %}
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="{{ 'assets/img/favicon.png'|theme }}" rel="icon">
+  <link href="{{ 'assets/img/apple-touch-icon.png'|theme }}" rel="apple-touch-icon">
+
+  <!-- Bootstrap CSS File -->
+  <link href="{{ 'assets/lib/bootstrap/css/bootstrap.min.css'|theme }}" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="{{ 'assets/lib/font-awesome/css/font-awesome.min.css'|theme }}" rel="stylesheet">
+  <link href="{{ 'assets/lib/animate/animate.min.css'|theme }}" rel="stylesheet">
+  <link href="{{ 'assets/lib/ionicons/css/ionicons.min.css'|theme }}" rel="stylesheet">
+  <link href="{{ 'assets/lib/owlcarousel/assets/owl.carousel.min.css'|theme }}" rel="stylesheet">
+  <link href="{{ 'assets/lib/lightbox/css/lightbox.min.css'|theme }}" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="{{ 'assets/css/style.css'|theme }}" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: Fenn-CS
+    Theme URL: https://bootstrapmade.com/Fenn-CS-bootstrap-portfolio-html-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+  <!--/ Nav Star /-->
+  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll" href="{{ 'home'|page }}">Fenn-CS</a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="{{ 'home'|page }}">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="{{ 'home'|page }}/#blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="{{ 'home'|page }}/#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--/ Nav End /-->
+
+  {% page %}
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="copyright-box">
+              <p class="copyright">&copy; Copyright <strong>Fenn-CS</strong>. All Rights Reserved</p>
+              <div class="credits">
+                <!--
+                  All the links in the footer should remain intact.
+                  You can delete the links only if you purchased the pro version.
+                  Licensing information: https://bootstrapmade.com/license/
+                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Fenn-CS
+                -->
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <!--/ Section Contact-footer End /-->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader"></div>
+
+
+  <!-- JavaScript Libraries -->
+  <script src="{{ 'assets/lib/jquery/jquery.min.js'|theme }}"></script>
+  <script src="{{ 'assets/lib/jquery/jquery-migrate.min.js'|theme }}"></script>
+  <script src="{{ 'assets/lib/popper/popper.min.js'|theme }}"></script>
+  <script src="{{ 'assets/lib/bootstrap/js/bootstrap.min.js'|theme }}"></script>
+  <script src="{{ 'assets/lib/easing/easing.min.js'|theme }}"></script>
+  <script src="{{ 'assets/lib/counterup/jquery.waypoints.min.js'|theme }}"></script>
+  <script src="{{ 'assets/lib/counterup/jquery.counterup.js'|theme }}"></script>
+  <script src="{{ 'assets/lib/owlcarousel/owl.carousel.min.js'|theme }}"></script>
+  <script src="{{ 'assets/lib/lightbox/js/lightbox.min.js'|theme }}"></script>
+  <script src="{{ 'assets/lib/typed/typed.min.js'|theme }}"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="{{ 'assets/contactform/contactform.js'|theme }}"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="{{ 'assets/js/main.js'|theme }}"></script>
+
+   {% framework %} 
+   {% framework extras %}
+
+</body>
+</html>
